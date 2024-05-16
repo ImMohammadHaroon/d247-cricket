@@ -2,433 +2,424 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    <title>Cricket</title>
+  <title>Cricket</title>
 </head>
 
 <body>
-    <!-- header navbar  -->
+  <!-- header navbar  -->
+  <div>
     <div _ngcontent-ng-c3820747964=""
-        class="top-header bg-[#0088CC] text-white xl:py-[7px] xl:px-[15px] py-[10px] px-[5px] flex flex-wrap items-center justify-between relative h-auto snipcss-hdXv1">
-        <div _ngcontent-ng-c3820747964=""
-            class="logo-header mt-[-2px] md:mt-[-3px] lg:mt-[-3px] gap-1 flex items-center"><a
-                _ngcontent-ng-c3820747964="" href="#" class="xl:hidden block lg:pb-[1px]">
-                <fa-icon _ngcontent-ng-c3820747964="" class="ng-fa-icon text-[20px] text-white"><svg role="img"
-                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="house"
-                        class="svg-inline--fa fa-house" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                        <path fill="currentColor"
-                            d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z">
-                        </path>
-                    </svg></fa-icon>
-            </a><a _ngcontent-ng-c3820747964="" href="#"><img _ngcontent-ng-c3820747964=""
-                    src="https://d247-beta.vercel.app/assets/logo.png" alt=""
-                    class="xl:align-middle xl:mt-[3px] xl:max-h-[65px] xl:max-w-[250px] max-h-[35px] max-w-[120px]"></a>
+      class="top-header bg-[#0088CC] text-white xl:py-[7px] xl:px-[15px] py-[10px] px-[5px] flex flex-wrap items-center justify-between relative h-auto snipcss-hdXv1">
+      <div _ngcontent-ng-c3820747964="" class="logo-header mt-[-2px] md:mt-[-3px] lg:mt-[-3px] gap-1 flex items-center">
+        <a _ngcontent-ng-c3820747964="" href="#" class="xl:hidden block lg:pb-[1px]">
+          <fa-icon _ngcontent-ng-c3820747964="" class="ng-fa-icon text-[20px] text-white"><svg role="img"
+              aria-hidden="true" focusable="false" data-prefix="fas" data-icon="house" class="svg-inline--fa fa-house"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path fill="currentColor"
+                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z">
+              </path>
+            </svg></fa-icon>
+        </a><a _ngcontent-ng-c3820747964="" href="#"><img _ngcontent-ng-c3820747964=""
+            src="https://d247-beta.vercel.app/assets/logo.png" alt=""
+            class="xl:align-middle xl:mt-[3px] xl:max-h-[65px] xl:max-w-[250px] max-h-[35px] max-w-[120px]"></a>
+      </div>
+      <div _ngcontent-ng-c3820747964=""
+        class="user-details xl:mt-[-10px] relative flex items-center justify-between leading-normal">
+        <div _ngcontent-ng-c3820747964="" class="hidden xl:block flex-wrap items-center justify-between xl:mt-[2px]">
+          <div _ngcontent-ng-c3820747964="" id="search-enclose" class="translate-y-[18px]">
+            <form _ngcontent-ng-c3820747964="" novalidate="" class="flex ng-untouched ng-pristine ng-valid">
+              <div _ngcontent-ng-c3820747964="" id="input-enclose" class="relative"><input _ngcontent-ng-c3820747964=""
+                  type="text" placeholder="Search here" id="fldSearch" name="search"
+                  class="!text-black ng-untouched ng-pristine ng-valid" value="">
+                <div _ngcontent-ng-c3820747964="" class="absolute right-3 top-3 -translate-y-1"><a
+                    _ngcontent-ng-c3820747964="" class="cursor-pointer"></a></div>
+                <div _ngcontent-ng-c3820747964="" class="close"></div>
+              </div>
+              <div _ngcontent-ng-c3820747964="" id="label-enclose"><label _ngcontent-ng-c3820747964="" for="fldSearch"
+                  class="translate-y-1"><i _ngcontent-ng-c3820747964=""
+                    class="text-white text-[24px] cursor-pointer fas fa-search-plus"></i></label></div>
+            </form>
+          </div>
+          <div _ngcontent-ng-c3820747964=""></div>
         </div>
         <div _ngcontent-ng-c3820747964=""
-            class="user-details xl:mt-[-10px] relative flex items-center justify-between leading-normal">
-            <div _ngcontent-ng-c3820747964=""
-                class="hidden xl:block flex-wrap items-center justify-between xl:mt-[2px]">
-                <div _ngcontent-ng-c3820747964="" id="search-enclose" class="translate-y-[18px]">
-                    <form _ngcontent-ng-c3820747964="" novalidate="" class="flex ng-untouched ng-pristine ng-valid">
-                        <div _ngcontent-ng-c3820747964="" id="input-enclose" class="relative"><input
-                                _ngcontent-ng-c3820747964="" type="text" placeholder="Search here" id="fldSearch"
-                                name="search" class="!text-black ng-untouched ng-pristine ng-valid" value="">
-                            <div _ngcontent-ng-c3820747964="" class="absolute right-3 top-3 -translate-y-1"><a
-                                    _ngcontent-ng-c3820747964="" class="cursor-pointer"></a></div>
-                            <div _ngcontent-ng-c3820747964="" class="close"></div>
-                        </div>
-                        <div _ngcontent-ng-c3820747964="" id="label-enclose"><label _ngcontent-ng-c3820747964=""
-                                for="fldSearch" class="translate-y-1"><i _ngcontent-ng-c3820747964=""
-                                    class="text-white text-[24px] cursor-pointer fas fa-search-plus"></i></label></div>
-                    </form>
-                </div>
-                <div _ngcontent-ng-c3820747964=""></div>
-            </div>
-            <div _ngcontent-ng-c3820747964=""
-                class="xl:leading-[19px] leading-[19px] mr-[5px] xl:mr-0 mt-[6px] lg:mt-[6px] hidden xl:block text-[16px] ml-4 h-[38px] xl:h-[40px] xl:box-border xl:translate-y-[-2px]">
-                <div _ngcontent-ng-c3820747964="" class="cursor-pointer"><a _ngcontent-ng-c3820747964=""
-                        class="text-white"><b _ngcontent-ng-c3820747964="">Rules</b></a></div>
-                <div _ngcontent-ng-c3820747964="" class="whitespace-nowrap hidden xl:block"><a
-                        _ngcontent-ng-c3820747964="" href="#" class="flex flex-row gap-[3.5px]"><b
-                            _ngcontent-ng-c3820747964="">Download Apk</b><img _ngcontent-ng-c3820747964=""
-                            src="https://d247-beta.vercel.app/assets/img/Vector.svg"
-                            class="h-[14.5px] w-[14px] mt-0.5"></a></div>
-            </div>
-            <div _ngcontent-ng-c3820747964=""
-                class="flex flex-col mt-[-6px] md:mt-[-6.5px] xl:mt-[-6px] flex-wrap justify-center items-end xl:items-start xl:leading-[17px] xl:ml-[1rem] ml-[.25rem]">
-                <div _ngcontent-ng-c3820747964=""
-                    class="w-full text-right text-[12px] md:text-[16px] mt-1 xl:mt-[5px] xl:mb-0 lg:text-[16px]"><span
-                        _ngcontent-ng-c3820747964="">Balance:</span><b _ngcontent-ng-c3820747964="">1500</b></div>
-                <div _ngcontent-ng-c3820747964="" class="lg:text-[16px] text-[12px] mt-[1px] flex items-center gap-1">
-                    <div _ngcontent-ng-c3820747964=""
-                        class="mr-[1px] mt-[1px] md:text-[16px] md:mt-[-1px] xl:mt-0 xl:translate-y-[1px]"><span
-                            _ngcontent-ng-c3820747964="">Exp:</span><b _ngcontent-ng-c3820747964=""
-                            class="cursor-pointer">0</b></div>
-                    <div _ngcontent-ng-c3820747964="" class="relative xl:hidden">
-                        <div _ngcontent-ng-c3820747964=""
-                            class="inline-flex ml-1 items-center overflow-hidden dropdownButton md:mt-[1px] xl:mt-0">
-                            <h2 _ngcontent-ng-c3820747964="" class="text-[14px] text-white">Demo</h2><i
-                                _ngcontent-ng-c3820747964="" class="fas fa-chevron-down ml-1 text-[14px] -mt-[1px]"></i>
-                        </div>
-                        <ul class="p-1cw"><a href="/account-statement">
-                                <li class="dropdown-item-esj">Account Statement</li>
-                            </a><a href="/current-bets">
-                                <li class="dropdown-item-esj">Current Bet</li>
-                            </a><a href="/casino-result">
-                                <li class="dropdown-item-esj">Casino Result</li>
-                            </a>
-                            <h2>
-                                <li class="dropdown-item-esj">Set Button Values</li>
-                            </h2><a href="#" class="xl-9ld block-ptk">
-                                <li class="dropdown-item-esj">Rules</li>
-                            </a><a href="#" class="dropdown-item-esj xl-9ld block-ptk"> Balance <div
-                                    class="block-ptk float-tgm"><input type="checkbox" class="ml-[-c1b"></div></a><a
-                                href="#" class="dropdown-item-esj xl-9ld block-ptk"> Exposure <div
-                                    class="block-ptk float-tgm"><input type="checkbox" class="ml-[-c1b"></div></a>
-                            <hr class="mx-lsj overflow-tvd div-r9n">
-                            <li class="dropdown-item-esj">SignOut</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div _ngcontent-ng-c3820747964="" class="relative hidden xl:block ml-4">
-                <div _ngcontent-ng-c3820747964=""
-                    class="inline-flex items-center overflow-hidden dropdownButton cursor-pointer">
-                    <h2 _ngcontent-ng-c3820747964="" href="#" class="text-[14px] lg:text-[16px] text-white">Demo</h2><i
-                        _ngcontent-ng-c3820747964=""
-                        class="text-[15px] lg:text-[16px] lg:mt-[-1px] fas fa-chevron-down ml-1"></i>
-                </div>
-            </div>
+          class="xl:leading-[19px] leading-[19px] mr-[5px] xl:mr-0 mt-[6px] lg:mt-[6px] hidden xl:block text-[16px] ml-4 h-[38px] xl:h-[40px] xl:box-border xl:translate-y-[-2px]">
+          <div _ngcontent-ng-c3820747964="" class="cursor-pointer"><a _ngcontent-ng-c3820747964="" class="text-white"><b
+                _ngcontent-ng-c3820747964="">Rules</b></a></div>
+          <div _ngcontent-ng-c3820747964="" class="whitespace-nowrap hidden xl:block"><a _ngcontent-ng-c3820747964=""
+              href="#" class="flex flex-row gap-[3.5px]"><b _ngcontent-ng-c3820747964="">Download Apk</b><img
+                _ngcontent-ng-c3820747964="" src="https://d247-beta.vercel.app/assets/img/Vector.svg"
+                class="h-[14.5px] w-[14px] mt-0.5"></a></div>
         </div>
         <div _ngcontent-ng-c3820747964=""
-            class="flex xl:hidden w-full flex-wrap items-center justify-between mt-[-5px]">
+          class="flex flex-col mt-[-6px] md:mt-[-6.5px] xl:mt-[-6px] flex-wrap justify-center items-end xl:items-start xl:leading-[17px] xl:ml-[1rem] ml-[.25rem]">
+          <div _ngcontent-ng-c3820747964=""
+            class="w-full text-right text-[12px] md:text-[16px] mt-1 xl:mt-[5px] xl:mb-0 lg:text-[16px]"><span
+              _ngcontent-ng-c3820747964="">Balance:</span><b _ngcontent-ng-c3820747964="">1500</b></div>
+          <div _ngcontent-ng-c3820747964="" class="lg:text-[16px] text-[12px] mt-[1px] flex items-center gap-1">
+            <div _ngcontent-ng-c3820747964=""
+              class="mr-[1px] mt-[1px] md:text-[16px] md:mt-[-1px] xl:mt-0 xl:translate-y-[1px]"><span
+                _ngcontent-ng-c3820747964="">Exp:</span><b _ngcontent-ng-c3820747964="" class="cursor-pointer">0</b>
+            </div>
+            <div _ngcontent-ng-c3820747964="" class="relative xl:hidden">
+              <div _ngcontent-ng-c3820747964=""
+                class="inline-flex ml-1 items-center overflow-hidden dropdownButton md:mt-[1px] xl:mt-0">
+                <h2 _ngcontent-ng-c3820747964="" class="text-[14px] text-white">Demo</h2><i _ngcontent-ng-c3820747964=""
+                  class="fas fa-chevron-down ml-1 text-[14px] -mt-[1px]"></i>
+              </div>
+              <ul class="p-1cw"><a href="/account-statement">
+                  <li class="dropdown-item-esj">Account Statement</li>
+                </a><a href="/current-bets">
+                  <li class="dropdown-item-esj">Current Bet</li>
+                </a><a href="/casino-result">
+                  <li class="dropdown-item-esj">Casino Result</li>
+                </a>
+                <h2>
+                  <li class="dropdown-item-esj">Set Button Values</li>
+                </h2><a href="#" class="xl-9ld block-ptk">
+                  <li class="dropdown-item-esj">Rules</li>
+                </a><a href="#" class="dropdown-item-esj xl-9ld block-ptk"> Balance <div class="block-ptk float-tgm">
+                    <input type="checkbox" class="ml-[-c1b"></div></a><a href="#"
+                  class="dropdown-item-esj xl-9ld block-ptk"> Exposure <div class="block-ptk float-tgm"><input
+                      type="checkbox" class="ml-[-c1b"></div></a>
+                <hr class="mx-lsj overflow-tvd div-r9n">
+                <li class="dropdown-item-esj">SignOut</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div _ngcontent-ng-c3820747964="" class="relative hidden xl:block ml-4">
+          <div _ngcontent-ng-c3820747964=""
+            class="inline-flex items-center overflow-hidden dropdownButton cursor-pointer">
+            <h2 _ngcontent-ng-c3820747964="" href="#" class="text-[14px] lg:text-[16px] text-white">Demo</h2><i
+              _ngcontent-ng-c3820747964="" class="text-[15px] lg:text-[16px] lg:mt-[-1px] fas fa-chevron-down ml-1"></i>
+          </div>
+        </div>
+      </div>
+      <div _ngcontent-ng-c3820747964="" class="flex xl:hidden w-full flex-wrap items-center justify-between mt-[-5px]">
 
-            <div _ngcontent-ng-c3820747964=""></div>
-        </div>
-        <div _ngcontent-ng-c3820747964=""
-            class="news xl:hidden xl:absolute xl:bottom-0 xl:right-0 xl:text-[14px] text-[12px] flex items-center w-full mt-[-25px]">
-            <marquee _ngcontent-ng-c3820747964="" scrollamount="3"> Aviator &gt; Instant Game Instant Wins.... Lucky
-                Scratch Lottery &gt; New Scratch Instant Cash Withdraw.... </marquee>
-        </div>
+        <div _ngcontent-ng-c3820747964=""></div>
+      </div>
+      <div _ngcontent-ng-c3820747964=""
+        class="news xl:hidden xl:absolute xl:bottom-0 xl:right-0 xl:text-[14px] text-[12px] flex items-center w-full mt-[-25px]">
+        <marquee _ngcontent-ng-c3820747964="" scrollamount="3"> Aviator &gt; Instant Game Instant Wins.... Lucky
+          Scratch Lottery &gt; New Scratch Instant Cash Withdraw.... </marquee>
+      </div>
     </div>
 
 
     <!-- 2nd navbar  -->
     <div _ngcontent-ng-c619476281=""
-        class="hidden lg:block lg:h-[41px] w-full px-[15px] py-[8px] bg-[#2C3E50] snipcss-YpmdA">
-        <app-sub-header _ngcontent-ng-c619476281="" _nghost-ng-c1502189119="">
-            <nav _ngcontent-ng-c1502189119="" class="container justify-start items-center relative flex snipcss0-0-0-1">
-                <ul _ngcontent-ng-c1502189119="" class="flex flex-row justify-center xl:mt-[-0.5px] snipcss0-1-1-2">
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-3"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] pr-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-3-4">Home</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-3-5">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-6"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-6-7">Lottery</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-8px] left-0 w-full h-0.5 bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-6-8">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-9"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-9-10">Cricket</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-9-11">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-12"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-12-13">Tennis</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-12-14">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-15"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-15-16">FOOTBALL</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-15-17">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-18"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-18-19">TABLE
-                            TENNIS</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-18-20">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-21"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-21-22">BACCARAT</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-21-23">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-24"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-24-25">32
-                            CARDS</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-24-26">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-27"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-27-28">TEENPATTI</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-27-29">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-30"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-30-31">POKER</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-30-32">
-                        </div>
-                    </li>
-                    <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-33"><a
-                            _ngcontent-ng-c1502189119="" href="#"
-                            class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-33-34">LUCKY
-                            7</a>
-                        <div _ngcontent-ng-c1502189119=""
-                            class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-33-35">
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </app-sub-header>
+      class="hidden lg:block lg:h-[41px] w-full px-[15px] py-[8px] bg-[#2C3E50] snipcss-YpmdA">
+      <app-sub-header _ngcontent-ng-c619476281="" _nghost-ng-c1502189119="">
+        <nav _ngcontent-ng-c1502189119="" class="container justify-start items-center relative flex snipcss0-0-0-1">
+          <ul _ngcontent-ng-c1502189119="" class="flex flex-row justify-center xl:mt-[-0.5px] snipcss0-1-1-2">
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-3"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] pr-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-3-4">Home</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-3-5">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-6"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-6-7">Lottery</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-8px] left-0 w-full h-0.5 bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-6-8">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-9"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-9-10">Cricket</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-9-11">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-12"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-12-13">Tennis</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-12-14">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-15"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-15-16">FOOTBALL</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-15-17">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-18"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-18-19">TABLE
+                TENNIS</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-18-20">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-21"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-21-22">BACCARAT</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-21-23">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-24"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-24-25">32
+                CARDS</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-24-26">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-27"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-27-28">TEENPATTI</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-27-29">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-30"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-30-31">POKER</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-30-32">
+              </div>
+            </li>
+            <li _ngcontent-ng-c1502189119="" class="group relative snipcss0-2-2-33"><a _ngcontent-ng-c1502189119=""
+                href="#"
+                class="text-[#ffffff] cursor-pointer py-[5px] px-[15px] uppercase relative text-[14px] font-bold font-['Roboto Condensed'] snipcss0-3-33-34">LUCKY
+                7</a>
+              <div _ngcontent-ng-c1502189119=""
+                class="hover-indicator absolute bottom-[-9px] left-0 w-full h-[2px] bg-[#ffffff] scale-x-0 group-hover:scale-x-100 group-hover:-translate-y-[5px] transition-transform duration-300 ease-out snipcss0-3-33-35">
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </app-sub-header>
     </div>
 
     <!-- slidebar  -->
     <div>
-        <!-- Sidebar backdrop (mobile only) -->
-        <div class="fixed inset-0 bg-blue-900 bg-opacity-30 z-40 lg:hidden lg:z-auto transition-opacity duration-200 
+      <!-- Sidebar backdrop (mobile only) -->
+      <div class="fixed inset-0 bg-blue-900 bg-opacity-30 z-40 lg:hidden lg:z-auto transition-opacity duration-200 
              {{sidebarOpen ? 'opacity-100' : 'opacity-100 pointer-events-none'}}" aria-hidden="true"></div>
 
-        <!-- Sidebar -->
-        <div id="sidebar" class="flex flex-col absolute z-40 left-0 top-0 lg:static lg:left-auto lg:top-auto lg:translate-x-0 
+      <!-- Sidebar -->
+      <div id="sidebar" class="flex flex-col absolute z-40 left-0 top-0 lg:static lg:left-auto lg:top-auto lg:translate-x-0 
              h-screen overflow-y-scroll lg:overflow-y-auto no-scrollbar w-64 lg:w-20 lg:sidebar-expanded:!w-64 2xl:!w-64 
              shrink-0 bg-slate-800 transition-all duration-200 ease-in-out 
              {{sidebarOpen ? 'translate-x-0' : '-translate-x-64'}}">
 
-            <!-- Links -->
-            <div class="space-y-8">
-                <!-- Pages group -->
-                <div>
-                    <ul class="mt-3">
-                        <!-- Dashboard -->
-                        <li>
-                            <a href="#0" class="block text-slate-200 truncate transition duration-150 
+        <!-- Links -->
+        <div class="space-y-8">
+          <!-- Pages group -->
+          <div>
+            <ul class="mt-3">
+              <!-- Dashboard -->
+              <li>
+                <a href="#0" class="block text-slate-200 truncate transition duration-150 
                {{pathname === '/' || pathname.includes('dashboard') ? 'hover:text-slate-200' : 'hover:text-white'}}"
-                                onclick="(e) => {
+                  onclick="(e) => {
                                      e.preventDefault();
                                      sidebarExpanded ? handleClick() : setSidebarExpanded(true);
                                    }">
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center">
-                                        <span class="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 
                                duration-200">
-                                            Racing Sport
-                                        </span>
-                                    </div>
-                                    <!-- Icon -->
-                                    <div class="flex shrink-0 ml-2">
-                                        <svg class="w-3 h-3 shrink-0 ml-1 fill-current text-slate-400 
+                        Racing Sport
+                      </span>
+                    </div>
+                    <!-- Icon -->
+                    <div class="flex shrink-0 ml-2">
+                      <svg class="w-3 h-3 shrink-0 ml-1 fill-current text-slate-400 
                               {{open && 'rotate-180'}}" viewBox="0 0 12 12">
-                                            <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="lg:hidden lg:sidebar-expanded:block 2xl:block 
+                        <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+                <div class="lg:hidden lg:sidebar-expanded:block 2xl:block 
                         {{!open && 'hidden'}}">
-                                <ul class="pl-9 mt-1">
-                                    <li class="mb-1 last:mb-0">
-                                        <NavLink
-                                            end
-                                            to="/"
-                                            class="{({ isActive }) =>
+                  <ul class="pl-9 mt-1">
+                    <li class="mb-1 last:mb-0">
+                      <NavLink end to="/" class="{({ isActive }) =>
                                 'block transition duration-150 truncate ' +
                                 (isActive
                                   ? 'text-indigo-500'
-                                  : 'text-slate-400 hover:text-slate-200')}"
-                                        >
-                                            <span class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                                Greyhound Racing
-                                            </span>
-                                        </NavLink>
-                                    </li>
-                                    <li class="mb-1 last:mb-0">
-                                        <NavLink
-                                            end
-                                            to="/"
-                                            class="{({ isActive }) =>
+                                  : 'text-slate-400 hover:text-slate-200')}">
+                        <span
+                          class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                          Greyhound Racing
+                        </span>
+                      </NavLink>
+                    </li>
+                    <li class="mb-1 last:mb-0">
+                      <NavLink end to="/" class="{({ isActive }) =>
                                 'block transition duration-150 truncate ' +
                                 (isActive
                                   ? 'text-slate-400'
-                                  : 'text-indigo-500 hover:text-slate-200')}"
-                                        >
-                                            <span class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                                Horse Racing
-                                            </span>
-                                        </NavLink>
-                                    </li>
-                                    <li class="mb-1 last:mb-0">
-                                        <NavLink
-                                            end
-                                            to="/"
-                                            class="{({ isActive }) =>
+                                  : 'text-indigo-500 hover:text-slate-200')}">
+                        <span
+                          class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                          Horse Racing
+                        </span>
+                      </NavLink>
+                    </li>
+                    <li class="mb-1 last:mb-0">
+                      <NavLink end to="/" class="{({ isActive }) =>
                                 'block transition duration-150 truncate ' +
                                 (isActive
                                   ? 'text-slate-400'
-                                  : 'text-indigo-500 hover:text-slate-200')}"
-                                        >
-                                            <span class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                            </span>
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
+                                  : 'text-indigo-500 hover:text-slate-200')}">
+                        <span
+                          class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                        </span>
+                      </NavLink>
+                    </li>
+                  </ul>
                 </div>
-                <!-- E-Commerce -->
-                <div class="lg:hidden lg:sidebar-expanded:block 2xl:block">
-                    <ul class="pl-9 mt-1">
-                        <li class="mb-1 last:mb-0">
-                            <NavLink
-                                end
-                                to="/community/users-tabs"
-                                class="{({ isActive }) =>
+              </li>
+            </ul>
+          </div>
+          <!-- E-Commerce -->
+          <div class="lg:hidden lg:sidebar-expanded:block 2xl:block">
+            <ul class="pl-9 mt-1">
+              <li class="mb-1 last:mb-0">
+                <NavLink end to="/community/users-tabs" class="{({ isActive }) =>
                                 'block transition duration-150 truncate ' +
                                 (isActive
                                   ? 'text-indigo-500'
-                                  : 'text-slate-400 hover:text-slate-200')}"
-                            >
-                                <span class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                    Politics
-                                </span>
-                            </NavLink>
-                        </li>
-                        <!-- Add more E-Commerce links here -->
-                    </ul>
-                </div>
-            </div>
+                                  : 'text-slate-400 hover:text-slate-200')}">
+                  <span
+                    class="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                    Politics
+                  </span>
+                </NavLink>
+              </li>
+              <!-- Add more E-Commerce links here -->
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3rd navbar  -->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Tabs</title>
+    <style>
+      .tab {
+        display: inline-block;
+        padding: 10px 20px;
+        border-right: 1px solid #ccc;
+        background-color: #bbbbbb;
+        cursor: pointer;
+        color: #333;
+      }
+
+      .tab:last-child {
+        border-right: none;
+      }
+
+      .tab.active {
+        background-color: #bbbbbb;
+        color: #000000;
+      }
+
+      .tab-content {
+        background-color: #f2f2f2;
+        color: #000;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="overflow-x: auto; white-space: nowrap; background-color: #f2f2f2; height: 50px;">
+      <div class="tab active" onclick="showTabContent(0)">Politices</div>
+      <div class="tab" onclick="showTabContent(1)">Cricket</div>
+      <div class="tab" onclick="showTabContent(2)">Football</div>
+      <div class="tab" onclick="showTabContent(3)">Esoccer</div>
+      <div class="tab" onclick="showTabContent(4)">Tennis</div>
+      <div class="tab" onclick="showTabContent(5)">Horse Racing</div>
+      <div class="tab" onclick="showTabContent(6)">Greyhound Racing</div>
+      <div class="tab" onclick="showTabContent(7)">Table Tennis</div>
+      <div class="tab" onclick="showTabContent(8)">Basketbll</div>
+      <div class="tab" onclick="showTabContent(9)">American Football</div>
+      <div class="tab" onclick="showTabContent(10)">Volleyball</div>
+      <div class="tab" onclick="showTabContent(11)">Badminton</div>
+      <div class="tab" onclick="showTabContent(12)">Snooker</div>
+      <div class="tab" onclick="showTabContent(13)">Ice Hockey</div>
+      <div class="tab" onclick="showTabContent(14)">E games</div>
+      <div class="tab" onclick="showTabContent(15)">Futsal</div>
+      <div class="tab" onclick="showTabContent(16)">HandBall</div>
+      <div class="tab" onclick="showTabContent(17)">Motor Sport</div>
     </div>
 
-   <!-- 3rd navbar  -->
+    <div class="tab-content" id="tab-content">
+      <!-- Content for Politices -->
+    </div>
+
+    <script>
+      function showTabContent(index) {
+        const tabs = document.querySelectorAll('.tab');
+        tabs.forEach((tab, idx) => {
+          if (idx === index) {
+            tab.classList.add('active');
+          } else {
+            tab.classList.remove('active');
+          }
+        });
+
+        const tabContents = [
+          'Politices',
+          'Cricket',
+          'Football',
+          'Esoccer',
+          'Tennis',
+          'Horse Racing',
+          'Greyhound Racing',
+          'Table Tennis',
+          'Basketbll',
+          'American Football',
+          'Volleyball',
+          'Badminton',
+          'Snooker',
+          'Ice Hockey',
+          'E games',
+          'Futsal',
+          'HandBall',
+          'Motor Sport',
+        ];
+
+        document.getElementById('tab-content').innerHTML = tabContents[index];
+      }
+    </script>
+  </body>
+
+  </html>
 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Category Tabs</title>
-        <style>
-            .tab {
-                display: inline-block;
-                padding: 10px 20px;
-                border-right: 1px solid #ccc;
-                background-color: #bbbbbb;
-                cursor: pointer;
-                color: #333;
-            }
-            .tab:last-child {
-                border-right: none;
-            }
-            .tab.active {
-                background-color: #bbbbbb;
-                color: #000000;
-            }
-            .tab-content {
-                background-color: #f2f2f2;
-                color: #000;
-                padding: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <div style="overflow-x: auto; white-space: nowrap; background-color: #f2f2f2; height: 50px;">
-            <div class="tab active" onclick="showTabContent(0)">Politices</div>
-            <div class="tab" onclick="showTabContent(1)">Cricket</div>
-            <div class="tab" onclick="showTabContent(2)">Football</div>
-            <div class="tab" onclick="showTabContent(3)">Esoccer</div>
-            <div class="tab" onclick="showTabContent(4)">Tennis</div>
-            <div class="tab" onclick="showTabContent(5)">Horse Racing</div>
-            <div class="tab" onclick="showTabContent(6)">Greyhound Racing</div>
-            <div class="tab" onclick="showTabContent(7)">Table Tennis</div>
-            <div class="tab" onclick="showTabContent(8)">Basketbll</div>
-            <div class="tab" onclick="showTabContent(9)">American Football</div>
-            <div class="tab" onclick="showTabContent(10)">Volleyball</div>
-            <div class="tab" onclick="showTabContent(11)">Badminton</div>
-            <div class="tab" onclick="showTabContent(12)">Snooker</div>
-            <div class="tab" onclick="showTabContent(13)">Ice Hockey</div>
-            <div class="tab" onclick="showTabContent(14)">E games</div>
-            <div class="tab" onclick="showTabContent(15)">Futsal</div>
-            <div class="tab" onclick="showTabContent(16)">HandBall</div>
-            <div class="tab" onclick="showTabContent(17)">Motor Sport</div>
-        </div>
-    
-        <div class="tab-content" id="tab-content">
-            <!-- Content for Politices -->
-        </div>
-    
-        <script>
-            function showTabContent(index) {
-                const tabs = document.querySelectorAll('.tab');
-                tabs.forEach((tab, idx) => {
-                    if (idx === index) {
-                        tab.classList.add('active');
-                    } else {
-                        tab.classList.remove('active');
-                    }
-                });
-    
-                const tabContents = [
-                    'Politices',
-                    'Cricket',
-                    'Football',
-                    'Esoccer',
-                    'Tennis',
-                    'Horse Racing',
-                    'Greyhound Racing',
-                    'Table Tennis',
-                    'Basketbll',
-                    'American Football',
-                    'Volleyball',
-                    'Badminton',
-                    'Snooker',
-                    'Ice Hockey',
-                    'E games',
-                    'Futsal',
-                    'HandBall',
-                    'Motor Sport',
-                ];
-    
-                document.getElementById('tab-content').innerHTML = tabContents[index];
-            }
-        </script>
-    </body>
-    </html>
-    
+  <!-- table  -->
+  <!--  -->
 
-<!-- table  -->
-<!--  -->
+  <section _ngcontent-ng-c3141559036="" class="lg:px-[5px] snipcss-ObOYF">
 
-<section _ngcontent-ng-c3141559036="" class="lg:px-[5px] snipcss-ObOYF">
-   
     <div _ngcontent-ng-c3141559036="">
       <ul _ngcontent-ng-c3141559036=""
         class="lg:hidden bg-[#0088CC] shadow-[0px_-5px_5px_-5px_rgba(0,_0,_0,_0.5)] w-[100wv] flex">
@@ -458,7 +449,7 @@
         </li>
       </ul>
     </div>
-   
+
     <div _ngcontent-ng-c3141559036="">
       <router-outlet _ngcontent-ng-c3141559036=""></router-outlet>
       <app-game-cricket _nghost-ng-c3677942775="" ng-version="17.3.5">
@@ -1157,7 +1148,7 @@
     </div>
     <div _ngcontent-ng-c3141559036="">
       <app-games-grid _ngcontent-ng-c3141559036="" _nghost-ng-c983946022="">
-    
+
     </div>
     </app-games-grid>
     </div>
@@ -1168,6 +1159,246 @@
 
 
   <!-- side bar -->
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar menu With Sub-menus | Using HTML, CSS & JQuery</title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        background: white;
+        color: white;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .side-bar {
+        background: #bbbbbb;
+        backdrop-filter: blur(15px);
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        overflow-y: auto;
+        transition: 0.6s ease;
+        transition-property: left;
+      }
+
+      .side-bar::-webkit-scrollbar {
+        width: 0px;
+      }
+
+
+
+      .side-bar.active {
+        left: 0;
+      }
+
+      h1 {
+
+        text-align: center;
+        font-weight: 500;
+        font-size: 25px;
+        padding-bottom: 13px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+      }
+
+      .side-bar .menu {
+        width: 100%;
+        margin-top: 30px;
+      }
+
+      .side-bar .menu .item {
+        position: relative;
+        cursor: pointer;
+      }
+
+      .side-bar .menu .item a {
+        background-color: blue;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        display: block;
+        padding: 5px 30px;
+        line-height: 60px;
+      }
+
+      .side-bar .menu .item i {
+        margin-right: 15px;
+      }
+
+      .side-bar .menu .item a .dropdown {
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        transition: 0.3s ease;
+      }
+
+      .side-bar .menu .item .sub-menu {
+        background: #bbbbbb;
+        display: none;
+      }
+
+      .side-bar .menu .item .sub-menu a {
+        padding-left: 80px;
+      }
+
+      .rotate {
+        transform: rotate(90deg);
+      }
+
+
+
+      .menu-btn {
+        position: absolute;
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        margin: 25px;
+        cursor: pointer;
+      }
+
+      .main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+      }
+
+      .main h1 {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 60px;
+        text-align: center;
+        line-height: 80px;
+      }
+
+      @media (max-width: 900px) {
+        .main h1 {
+          font-size: 40px;
+          line-height: 60px;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+
+
+    <div class="side-bar">
+
+      <div class="menu">
+
+        <div class="item">
+          <a class="sub-btn">Racing Sports<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Horse Racing</a>
+            <a href="#" class="sub-item">Greyhound </a>
+          </div>
+        </div>
+        <div class="item">
+          <a class="sub-btn">Other<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">our casino </a>
+            <a href="#" class="sub-item">our Virtual</a>
+            <a href="#" class="sub-item">Live casino</a>
+            <a href="#" class="sub-item">Live casino</a>
+            <a href="#" class="sub-item">Slot game </a>
+            <a href="#" class="sub-item">Fantacy game </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <a class="sub-btn">Settings<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Politics</a>
+            <a href="#" class="sub-item">Cricket </a>
+            <a href="#" class="sub-item">Football</a>
+            <a href="#" class="sub-item">Tennis</a>
+            <a href="#" class="sub-item">Table Tennis</a>
+            <a href="#" class="sub-item">Badminton</a>
+            <a href="#" class="sub-item">Esoccer</a>
+            <a href="#" class="sub-item">Basketball</a>
+            <a href="#" class="sub-item">Volleyball</a>
+            <a href="#" class="sub-item">Snooker</a>
+            <a href="#" class="sub-item">Ice Hockey</a>
+            <a href="#" class="sub-item">E Games</a>
+            <a href="#" class="sub-item">Futusal</a>
+            <a href="#" class="sub-item">Handball</a>
+            <a href="#" class="sub-item">Kabaddi</a>
+            <a href="#" class="sub-item">Golf</a>
+            <a href="#" class="sub-item">Rugby League</a>
+            <a href="#" class="sub-item">Boxing</a>
+            <a href="#" class="sub-item">Moto GP</a>
+            <a href="#" class="sub-item">Chess</a>
+            <a href="#" class="sub-item">Cycling</a>
+            <a href="#" class="sub-item">Motorbikes</a>
+            <a href="#" class="sub-item">Athletics</a>
+            <a href="#" class="sub-item">Basketball 3*3</a>
+            <a href="#" class="sub-item">Sumo</a>
+            <a href="#" class="sub-item">Virtual sports</a>
+            <a href="#" class="sub-item">Motor Sports</a>
+            <a href="#" class="sub-item">Baseball</a>
+            <a href="#" class="sub-item">Rugby Union</a>
+            <a href="#" class="sub-item">Darts</a>
+            <a href="#" class="sub-item">Soccer</a>
+            <a href="#" class="sub-item">Esports</a>
+            <a href="#" class="sub-item">Boat Racing</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // Show sidebar by default
+        $('.side-bar').addClass('active');
+
+        // jQuery for toggle sub menus
+        $('.sub-btn').click(function () {
+          $(this).next('.sub-menu').slideToggle();
+          $(this).find('.dropdown').toggleClass('rotate');
+        });
+
+        // jQuery for collapse the sidebar
+        $('.menu-btn').click(function () {
+          $('.side-bar').toggleClass('active');
+          $('.menu-btn').css("visibility", "hidden");
+        });
+
+        $('.close-btn').click(function () {
+          $('.side-bar').removeClass('active');
+          $('.menu-btn').css("visibility", "visible");
+        });
+      });
+    </script>
+
+
+  </body>
+
+  </html>
+
 
 
 
@@ -1740,150 +1971,154 @@
 
 
 
-    <!-- 3rd portion  -->
+  <!-- 3rd portion  -->
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: start;">
-        <img src="https://d247-beta.vercel.app/assets/img/ballbyball.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/teen33.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/3sicbo.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/4teen32.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/5roulette1.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/6teen.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/7teen20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/8teen9.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/9teen8.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/10poker.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/11poker20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/12poker6.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/13baccarat.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/14baccarat2.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/15dt20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/16dt6.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/17dtl20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/18dt202.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/19card32.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/20card32eu.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/21ab20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/22abj.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/23lucky7.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/24lucky7eu.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/253cardj.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/26war.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/27worli.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/28worli2.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/29aaa.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/30btable.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/31lottcard.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/32cricketv3.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/33cmatch20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/34cmeter.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/35teen6.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/36queen.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/37race20.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/38lucky7eu2.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/39superover.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/40trap.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/41patti2.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/42teensin.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/43teenmuf.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/44race17.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
-        <img src="https://d247-beta.vercel.app/assets/img/45teen20b.jpg" alt=""
-            style="margin: 10px; width: 150px; height: 150px;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: start;">
+    <img src="https://d247-beta.vercel.app/assets/img/ballbyball.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/teen33.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/3sicbo.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/4teen32.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/5roulette1.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/6teen.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/7teen20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/8teen9.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/9teen8.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/10poker.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/11poker20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/12poker6.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/13baccarat.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/14baccarat2.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/15dt20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/16dt6.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/17dtl20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/18dt202.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/19card32.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/20card32eu.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/21ab20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/22abj.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/23lucky7.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/24lucky7eu.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/253cardj.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/26war.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/27worli.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/28worli2.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/29aaa.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/30btable.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/31lottcard.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/32cricketv3.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/33cmatch20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/34cmeter.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/35teen6.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/36queen.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/37race20.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/38lucky7eu2.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/39superover.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/40trap.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/41patti2.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/42teensin.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/43teenmuf.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/44race17.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
+    <img src="https://d247-beta.vercel.app/assets/img/45teen20b.jpg" alt=""
+      style="margin: 10px; width: 150px; height: 150px;">
 
-    </div>
-    <!-- footer  -->
-    <!-- footer.html -->
-    <section class="footer-zvh">
-        <div class="footer-p3c">
-            <div class="footer-jn7"></div>
-            <div class="support-otz">
-                <h2>24X7 Support</h2>
-                <p></p>
-            </div>
-            <div class="icon-e4j">
-                <div class="icon-sp7"><a href="https://www.facebook.com/d247exchofficial"><img
-                            src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/facebook.png"></a>
-                </div>
-                <div class="icon-sp7"><a href="https://instagram.com/d247exchofficial/"><img
-                            src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/instagram.png"></a>
-                </div>
-                <div class="icon-sp7"><a href="https://t.me/d247officialexch"><img
-                            src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/telegram.png"></a>
-                </div>
-                <div class="icon-sp7"><a href="https://twitter.com/d247official"><img
-                            src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/twitter.png"></a>
-                </div>
-            </div>
+  </div>
+  <!-- footer  -->
+  <!-- footer.html -->
+  <section class="footer-zvh">
+    <div class="footer-p3c">
+      <div class="footer-jn7"></div>
+      <div class="support-otz">
+        <h2>24X7 Support</h2>
+        <p></p>
+      </div>
+      <div class="icon-e4j">
+        <div class="icon-sp7"><a href="https://www.facebook.com/d247exchofficial"><img
+              src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/facebook.png"></a>
         </div>
-    </section>
-
-    <!-- lower footer  -->
-
-    <div class="fle-tcj flex-7h5 justify-xd7 mdjustify-vhs item-dnp rel-oyr bg-oh2">
-        <div class="fle-tcj item-dnp justify-xd7 leading-ooa">
-            <div><img src="https://d247-beta.vercel.app/assets/img/ssl.png"></div>
-            <div class="text-oxp mt-l52">
-                <div class="leading-j5d"><strong>100% SAFE</strong></div>
-                <div>Protected connection and encrypted data.</div>
-            </div>
+        <div class="icon-sp7"><a href="https://instagram.com/d247exchofficial/"><img
+              src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/instagram.png"></a>
         </div>
-        <div class="fle-tcj row-tfe mdmt-e8n"><a href="javascript:void(0)"><img
-                    src="https://d247-beta.vercel.app/assets/img/18plus.png" class="align-e75"></a><a
-                href="javascript:void(0)"><img src="https://d247-beta.vercel.app/assets/img/gamecare.png"
-                    class="align-e75"></a><a href="javascript:void(0)"><img
-                    src="https://d247-beta.vercel.app/assets/img/gt.png" class="align-e75"></a></div>
+        <div class="icon-sp7"><a href="https://t.me/d247officialexch"><img
+              src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/telegram.png"></a>
+        </div>
+        <div class="icon-sp7"><a href="https://twitter.com/d247official"><img
+              src="https://g1ver.sprintstaticdata.com/v21/static/front/img/social-icons/twitter.png"></a>
+        </div>
+      </div>
     </div>
-    <p class="Copyright">© Copyright 2024. All Rights Reserved. Powered by D247.</p>
+  </section>
+
+  <!-- lower footer  -->
+
+  <div class="fle-tcj flex-7h5 justify-xd7 mdjustify-vhs item-dnp rel-oyr bg-oh2">
+    <div class="fle-tcj item-dnp justify-xd7 leading-ooa">
+      <div><img src="https://d247-beta.vercel.app/assets/img/ssl.png"></div>
+      <div class="text-oxp mt-l52">
+        <div class="leading-j5d"><strong>100% SAFE</strong></div>
+        <div>Protected connection and encrypted data.</div>
+      </div>
+    </div>
+    <div class="fle-tcj row-tfe mdmt-e8n"><a href="javascript:void(0)"><img
+          src="https://d247-beta.vercel.app/assets/img/18plus.png" class="align-e75"></a><a
+        href="javascript:void(0)"><img src="https://d247-beta.vercel.app/assets/img/gamecare.png"
+          class="align-e75"></a><a href="javascript:void(0)"><img src="https://d247-beta.vercel.app/assets/img/gt.png"
+          class="align-e75"></a></div>
+  </div>
+  <footer style="margin-top: auto; text-align: center; padding: 1em 0; background-color: #f1f1f1;">
+    &copy; 2024 Your Company Name. All Rights Reserved.
+</footer>
+
+<p class="Copyright"></p>
 
 
 
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
